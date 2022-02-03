@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exp - 2 (27/01/22)</title>
+</head>
+<body>
+    <form action="/action_page.php">
+    <fieldset>
+        <legend><h3>Create User ID</h3></legend>
+    <label for="fname"><b>User ID</b></label><br>
+       <input type="text" id="fname" name="fname" value="Your email id"><br>
+       <label for="pwd"><b>Password</b></label><br>
+       <input type="password" id="pwd" name="pwd"><br><br>
+       <label for="pwd"><b>Confirm Password</b></label><br>
+       <input type="password" id="pwd" name="pwd"><br>       
+    </fieldset>
+    
+    <fieldset>
+        <legend><h3>Personal Details</h3></legend>
+            <img src="SAVE_20211219_193323.jpg" alt="Person" style="width: 240px;height: 220px;" Align="right">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="Enter first name"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="Enter last name"><br><br>
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label><br><br>
+
+            <label for="birthday">DOB:</label>
+            <input type="date" id="birthday" name="DOB"><br><br>
+
+            <label for="birthday">Country:</label>
+            <input list="Country" name="Country">
+            <datalist id="Country">
+                <option value="India"\>
+                <option value="US"\>
+               <option value="Japan"\></option>
+                <option value="UK"\>
+                <option value="China"\>
+            </datalist><br><br>
+
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="birthday">Address:</label><br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend><h3>Educational Details</h3></legend>
+        <label for="degree">Degree
+            <select name="degree" id="">Degree
+                <option value="">B.E.</option>
+                <option value="">BTech</option>
+                <option value="">Bsc</option>
+                <option value="">Bcom</option>
+            </select></label>
+            <br><br>
+            <label for="course">Certified Course any: <textarea name="" id="" cols="30" rows="10"></textarea></label>
+        </fieldset>
+        <br><hr><br>
+        <fieldset>
+            <legend>Word Experience</legend>
+            <label for="knowledge">Knowledge in : <input type="checkbox">HTML
+                 <input type="checkbox" name="" id="">.NET <input type="checkbox">JAVA <input type="checkbox">PHP</label>
+        </fieldset>
+        <br><hr><br>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+        
+</body>
+</html>
